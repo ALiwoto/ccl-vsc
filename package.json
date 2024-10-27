@@ -2,6 +2,10 @@
   "name": "ccl-common-code-language",
   "displayName": "CCL (Common Code Language)",
   "description": "Code generation using the Common Code Language.",
+  "repository": {
+		"type": "git",
+		"url": "https://github.com/godotengine/godot-vscode-plugin"
+	},
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.94.0"
