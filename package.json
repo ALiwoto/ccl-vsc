@@ -4,13 +4,20 @@
   "description": "Code generation using the Common Code Language.",
   "repository": {
 		"type": "git",
-		"url": "https://github.com/godotengine/godot-vscode-plugin"
+		"url": "https://github.com/ALiwoto/ccl"
 	},
   "version": "0.0.1",
+  "bugs": {
+		"url": "https://github.com/ALiwoto/ccl"
+	},
+	"license": "MIT",
+	"author": "Aliwoto",
+	"publisher": "Aliwoto",
   "engines": {
     "vscode": "^1.94.0"
   },
   "categories": [
+    "Programming Languages",
     "Other"
   ],
   "activationEvents": [
