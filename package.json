@@ -6,7 +6,7 @@
 		"type": "git",
 		"url": "https://github.com/ALiwoto/ccl"
 	},
-  "version": "0.0.1",
+  "version": "0.0.2",
   "bugs": {
 		"url": "https://github.com/ALiwoto/ccl"
 	},
@@ -21,7 +21,7 @@
     "Other"
   ],
   "activationEvents": [
-    "onLanguage:ccl"
+    
   ],
   "main": "./dist/extension.js",
   "contributes": {
@@ -40,8 +40,16 @@
         "aliases": [
           "Common Code Language",
           "CCL"
-        ]
+        ],
+        "configuration": "./configurations/ccl.language-configuration.json"
       }
+    ],
+    "grammars": [
+			{
+				"language": "ccl",
+				"scopeName": "source.ccl",
+				"path": "./syntaxes/ccl.tmLanguage.json"
+			}
     ]
   },
   "scripts": {

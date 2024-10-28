@@ -1,0 +1,15 @@
+{
+    "name": "CCL",
+    "scopeName": "source.ccl",
+    "patterns": [
+        {
+            "name": "comment.line.double-slash.ccl",
+            "match": "//.*$"
+        },
+        {
+            "name": "comment.block.ccl",
+            "begin": "/\\*",
+            "end": "\\*/"
+        }
+    ]
+}
